@@ -1,0 +1,92 @@
+body {
+    min-height: 100vh;
+    background: #FFFFFF;
+    background: -webkit-radial-gradient(top right, #FFFFFF, #8B8B8B);
+    background: -moz-radial-gradient(top right, #FFFFFF, #8B8B8B);
+    background: radial-gradient(to bottom left, #FFFFFF, #8B8B8B);
+}
+
+#svg-container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    min-height: 100vh;
+    height: auto;
+    width: 25%;
+}
+
+#palm {
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    z-index: -1;
+}
+
+#palm-path {
+    fill: rgb(31, 31, 31);
+}
+
+.finger {
+    fill: transparent;
+}
+#props-container {
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    z-index: -2;
+}
+
+.props {
+    fill: rgb(248, 182, 2);
+
+
+}
+
+.wrinkles {
+    fill: none;
+    stroke: #ffffff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.85px;
+}
+/* 
+h3 {
+    font-weight: 600;
+    position: relative;
+}
+
+h3::before,
+h3::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(7, 7, 7);
+}
+
+h3::before {
+    animation: reveal 2s ease forwards;
+}
+
+h3::after {
+    background-color: #fff;
+    animation: base 2s ease forwards;
+}
+
+@keyframes reveal {
+    0% {
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(111%);
+    }
+}@keyframes base {
+    0% {
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(111%);
+    }
+} */
